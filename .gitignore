@@ -1,0 +1,39 @@
+.DS_Store
+node_modules
+
+logchimp.config.json
+
+# content
+content/images/*.png
+content/images/*.jpg
+content/images/*.jpeg
+content/images/*.svg
+content/logs/*.log
+
+# Server
+server/public
+
+# Theme
+packages/theme/dist
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+
+# tests
+coverage
+
+# Editor directories and files
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# theme
+packages/theme/.out
